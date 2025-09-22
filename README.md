@@ -2,6 +2,13 @@
 
 A secure, full-stack file storage and management system built with modern web technologies. Vaultify provides user authentication, file upload/download capabilities, public file sharing, and comprehensive admin management tools.
 
+## 🌐 Live Demo
+
+**Frontend**: [https://vaultify-kohl.vercel.app/](https://vaultify-kohl.vercel.app/) - Deployed on Vercel  
+**Backend**: Deployed on Render for reliable API services
+
+Try out Vaultify with the live demo to explore all features including file uploads, user authentication, and admin dashboard capabilities.
+
 ## ✨ Features
 
 ### 🔑 Authentication & Authorization
@@ -230,6 +237,7 @@ Built with ❤️ by S Faizaan Hussain
 
 ## 🔗 Links
 
+- [Live Demo](https://vaultify-kohl.vercel.app/) - Try Vaultify now!
 - [GitHub Repository](https://github.com/shahfaiz-07/vaultify)
 - [Report Bug](https://github.com/shahfaiz-07/vaultify/issues)
 - [Request Feature](https://github.com/shahfaiz-07/vaultify/issues)
