@@ -88,7 +88,7 @@ Try out Vaultify with the live demo to explore all features including file uploa
 
 3. **Environment Setup**
 
-   Create `.env` file in the `server` directory:
+   **Server Environment** - Create `.env` file in the `server` directory:
    ```env
    # Database
    MONGODB_URI=mongodb://localhost:27017/vaultify
@@ -103,11 +103,17 @@ Try out Vaultify with the live demo to explore all features including file uploa
    CLOUDINARY_API_SECRET=your_cloudinary_api_secret
    
    # Server Configuration
-   PORT=5000
+   PORT=3000
    NODE_ENV=development
    
    # CORS Configuration
    CORS_ORIGIN=http://localhost:5173
+   ```
+
+   **Client Environment** - Create `.env` file in the `client` directory:
+   ```env
+   # API Configuration
+   VITE_API_URI=http://localhost:3000/api/v1
    ```
 
 4. **Start the application**
@@ -117,7 +123,7 @@ Try out Vaultify with the live demo to explore all features including file uploa
    
    # Or run separately
    npm run dev:client  # Frontend on http://localhost:5173
-   npm run dev:server  # Backend on http://localhost:5000
+   npm run dev:server  # Backend on http://localhost:3000
    ```
 
 ## 📁 Project Structure
